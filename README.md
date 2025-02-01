@@ -4,7 +4,6 @@ MSDos CMD bat file to batch download Youtube videos to MP3 using YT-DLP and FFMP
 
 YT-DLP does the video download and FFMPEG makes it an MP3.
 
-
 We will need to install YT-DL and FFMPEG, the easiest way to do this in windows is by using MSDos.
 
 Open a CMD window, goto **START** button, type **CMD** and choose to run **COMMAND PROMPT** in MSDos window type
