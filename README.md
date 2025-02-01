@@ -11,12 +11,25 @@ Open a CMD window, goto start button, type CMD and choose to **run COMMAND PROMP
 
 This will trigger two installs, type Y to agree to the T&C's of the software packages.
 
-**Close the COMMAND PROMPT window**
+**Close the COMMAND PROMPT window** as it will not know of a environment path update until it's re-opened. that wont happen until it's run 
 
-Download the two files, one the batch file, **yt2mp3.bat**, and a blank file called **videos.txt**
+Download the two files, one the batch file that will orchastrate the process, **[yt2mp3.bat](https://github.com/xuan69/yt2mp3/blob/main/yt2mp3/yt2mp3.bat)**, and a blank file called **[videos.txt](https://github.com/xuan69/yt2mp3/blob/main/yt2mp3/videos.txt)**, this is where you need add the video links to download, one per line.
 
-yt2mp3.bat when executed will look for videos.txt and take all the Youtube URL links in this file and download them as MP3.
+**yt2mp3.bat** when executed will look for **videos.txt** and take all the Youtube URL links in this file and download them as MP3.
 
+Later you might want to update the tools, to do so in DOS type in
+
+`winget upgrade yt-dlp`
+
+If you want manually download a video open a CMD window and type
+
+`yt-dlp https://www.youtube.com/watch?v=xxxxxxxxxx`
+
+or if you want to download a single MP3 manually, in DOS type
+
+`yt-dlp -x --audio-format mp3 --audio-quality 0 https://www.youtube.com/watch?v=xxxxxxxxxx`
+
+Njoi
 
 
 
