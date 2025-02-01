@@ -23,7 +23,11 @@ This will trigger two installs, **type Y to agree to the T&C's** of the software
 ### Exporting your existing Youtube cookies into cookies.txt
 Nowadays Youtube has locked itself down so that you need to be logged in to see a video.
 We need to export the cookies of your own personal login session, install a browser extension like "Get cookies.txt Locally".
-Use it to export cookies.txt and place it together with yt2mp3.bat and videos.txt
+
+Use it to export cookies.txt and place it together with yt2mp3.bat and videos.txt otherwise you could get this error:
+
+![image](https://github.com/user-attachments/assets/181b8234-a8d0-4ca0-9f77-b1c9e5711606)
+
 
 ### Download the batch file yt2mp3.bat and videos.txt
 Download the two files:
