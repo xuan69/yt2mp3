@@ -47,11 +47,11 @@ Download the two files:
 `winget upgrade yt-dlp`
 
 
-## If you want manually download a video open a CMD window and type
+### If you want manually download a video open a CMD window and type
 
 `yt-dlp https://www.youtube.com/watch?v=xxxxxxxxxx`
 
-## if you want to download a single MP3 manually, in DOS type
+### if you want to download a single MP3 manually, in DOS type
 
 `yt-dlp -x --audio-format mp3 --audio-quality 0 https://www.youtube.com/watch?v=xxxxxxxxxx`
 
