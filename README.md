@@ -8,7 +8,8 @@
 <li>Download the MSDos batch file <b>yt2mp3.bat</b> and <b>videos.txt</b></li>
 </ul>
 
-### Start by installing YT-DL and FFMPEG, the easiest way to do this in windows is by using MSDos.
+### Getting Started
+Start by installing YT-DL and FFMPEG, the easiest way to do this in windows is by using MSDos.
 
 Open a CMD window, goto **START** button, type **CMD** and choose to run **COMMAND PROMPT** in MSDos window type
 
@@ -23,9 +24,12 @@ This will trigger two installs, **type Y to agree to the T&C's** of the software
 ### Exporting your existing Youtube cookies into cookies.txt
 Nowadays Youtube has locked itself down so that you need to be logged in to see a video.
 
-We need to export the cookies of your own personal login session, install a browser extension like "Get cookies.txt Locally" to achieve this task.
+We need to export the cookies of your own personal login session install with an extension in your browser in Netscape format, choose your browser
+- Edge, https://microsoftedge.microsoft.com/addons/detail/export-cookies-file/hbglikhfdcfhdfikmocdfaecbnedo?hl=en-US
+- Chrome, Brave, https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc?utm_source=ext_app_menu
+- Firefox, https://addons.mozilla.org/en-GB/firefox/addon/cookies-txt/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
-Use it to export cookies.txt and place it together in the same folder with yt2mp3.bat and videos.txt.
+Use them to export a cookies.txt and place it together in the same folder with yt2mp3.bat and videos.txt.
 
 Without the cookies exported you could get this error, and if do do after a while you need to export them again.
 
