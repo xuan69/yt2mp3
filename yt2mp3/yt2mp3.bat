@@ -42,7 +42,7 @@ for /f "usebackq delims=" %%A in ("%URL_FILE%") do (
     if not "!YT_URL!"=="" (
         echo Downloading audio from: !YT_URL!
 
-        yt-dlp -x --audio-format mp3 --audio-quality 0 -o "%%(title)s.%%(ext)s" "!YT_URL!"
+        yt-dlp --cookies "cookies.txt" -x --audio-format mp3 --audio-quality 0 -o "%%(title)s.%%(ext)s" "!YT_URL!"
         
         :: Count successful downloads
         set /a downloaded+=1
@@ -56,3 +56,4 @@ if %downloaded%==0 (
     echo All downloads completed successfully!
 )
 
+pause
